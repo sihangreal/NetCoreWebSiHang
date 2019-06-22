@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["NetCoreWebSiHang/NetCoreWebSiHang.csproj", "NetCoreWebSiHang/"]
-RUN dotnet restore "NetCoreWebSiHang/NetCoreWebSiHang.csproj"
+COPY ["./NetCoreWebSiHang.csproj", "./"]
+RUN dotnet restore "./NetCoreWebSiHang.csproj"
 COPY . .
-WORKDIR "/src/NetCoreWebSiHang"
+WORKDIR "/src"
 RUN dotnet build "NetCoreWebSiHang.csproj" -c Release -o /app
 
 FROM build AS publish

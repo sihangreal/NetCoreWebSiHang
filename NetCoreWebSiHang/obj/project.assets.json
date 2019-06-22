@@ -12121,11 +12121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\NetCoreWebSiHang\\NetCoreWebSiHang\\NetCoreWebSiHang.csproj",
+      "projectUniqueName": "D:\\Net\\NetCoreWebSiHang\\NetCoreWebSiHang\\NetCoreWebSiHang.csproj",
       "projectName": "NetCoreWebSiHang",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\NetCoreWebSiHang\\NetCoreWebSiHang\\NetCoreWebSiHang.csproj",
+      "projectPath": "D:\\Net\\NetCoreWebSiHang\\NetCoreWebSiHang\\NetCoreWebSiHang.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\NetCoreWebSiHang\\NetCoreWebSiHang\\obj\\",
+      "outputPath": "D:\\Net\\NetCoreWebSiHang\\NetCoreWebSiHang\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
