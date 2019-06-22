@@ -14,7 +14,15 @@ namespace NetCoreWebSiHang
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            var host = new WebHostBuilder()
+             .UseKestrel()
+             .UseContentRoot(Directory.GetCurrentDirectory())
+             .UseIISIntegration()
+             .UseUrls("http://*:9100")//监听来自所有ip的9100端口的请求
+             .UseStartup<Startup>()
+             .Build();
+
+            host.Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
