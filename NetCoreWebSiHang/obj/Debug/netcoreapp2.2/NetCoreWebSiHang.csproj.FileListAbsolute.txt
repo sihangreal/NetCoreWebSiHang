@@ -1,0 +1,3 @@
+C:\Users\Administrator\source\repos\NetCoreWebSiHang\NetCoreWebSiHang\obj\Debug\netcoreapp2.2\NetCoreWebSiHang.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\NetCoreWebSiHang\NetCoreWebSiHang\obj\Debug\netcoreapp2.2\NetCoreWebSiHang.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\NetCoreWebSiHang\NetCoreWebSiHang\obj\Debug\netcoreapp2.2\NetCoreWebSiHang.AssemblyInfo.cs
