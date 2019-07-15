@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  netcorewebsihang:
+    image: ${DOCKER_REGISTRY-}netcorewebsihang
+    build:
+      context: .
+      dockerfile: Dockerfile
