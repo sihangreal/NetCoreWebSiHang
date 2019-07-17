@@ -22,5 +22,11 @@ namespace NetCoreWebSiHang
         {
             return "hello lulu";
         }
+
+        [Route("hello/lulu")]
+        public string helloLulu()
+        {
+            return "lulu is daxiongmei";
+        }
     }
 }
