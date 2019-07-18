@@ -20,7 +20,7 @@ namespace NetCoreWebSiHang
         [Route("hello")]
         public string hello()
         {
-            return "hello lulu";
+            return "hello sihang";
         }
 
         [Route("hello/lulu")]
